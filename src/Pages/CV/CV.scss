@@ -1,0 +1,45 @@
+.cv-page {
+  max-width: 60rem;
+  min-width: 38rem;
+  line-height: 21px;
+
+  .section {
+    &:not(:last-child) {
+      box-shadow: 0 3px 3px -2px #7e7e7e;
+    }
+
+    .title {
+      margin-top: .5rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .double-subsection {
+      display: inline-flex;
+      align-items: flex-end;
+      width: 100%;
+
+      .left {
+        width: 10rem;
+      }
+    }
+
+    .bold {
+      font-weight: bold;
+      &:not(:first-child) {
+        margin-top: .5rem;
+      }
+    }
+  }
+}
+
+@media print
+{
+  .header, .menu {
+    display: none !important;
+  }
+
+  .pages {
+    margin: 0 !important;
+  }
+}
