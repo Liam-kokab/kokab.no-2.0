@@ -1,6 +1,6 @@
 # Kokab.no 2.0
 
-##scripts:
+### scripts:
 - `npm run dev`
 - `npm run build`
 - `npm run lint`
