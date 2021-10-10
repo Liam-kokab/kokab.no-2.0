@@ -1,0 +1,17 @@
+.header {
+  position: fixed;
+  width: 100%;
+  height: var(--header-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 10px 2px #7e7e7e;
+  background-color: var(--background-color);
+
+  .header-title {
+    width: fit-content;
+    height: fit-content;
+    font-size: 2rem;
+    text-shadow: -3px 4px 7px #515151;
+  }
+}
