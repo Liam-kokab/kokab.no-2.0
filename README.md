@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Kokab.no 2.0
 
 ##scripts:
 - `npm run dev`
