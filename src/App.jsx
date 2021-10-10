@@ -5,7 +5,6 @@ import Menu from './components/Menu/Menu';
 import Pages from './Pages/Pages';
 import './App.scss';
 
-
 const App = () => (
   <Router>
     <div className="app">
